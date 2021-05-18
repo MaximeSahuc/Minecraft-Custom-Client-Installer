@@ -3,13 +3,13 @@ public class Values {
 	private final static String launcherPath = System.getenv("ProgramFiles(X86)") +"\\Minecraft Launcher\\MinecraftLauncher.exe";
 
 	private final static String profilesPath = System.getProperty("user.home")+"\\AppData\\Roaming\\.minecraft\\launcher_profiles.json";
-	private final static String clientFolder = System.getProperty("user.home")+"\\AppData\\Roaming\\.minecraft\\versions\\ValrodClient";
+	private final static String clientFolder = System.getProperty("user.home")+"\\AppData\\Roaming\\.minecraft\\versions\\CustomVersion";
 
-	private final static String serverJarPath = "https://valrodclient.github.io/client/ValrodClient.jar";
-	private final static String serverJSONpath = "https://valrodclient.github.io/client/ValrodClient.json";
+	private final static String serverJarPath = "https://raw.githubusercontent.com/MaximeSahuc/Minecraft-Custom-Client-Installer/main/custom_version/custom_version.jar";
+	private final static String serverJSONpath = "https://raw.githubusercontent.com/MaximeSahuc/Minecraft-Custom-Client-Installer/main/custom_version/custom_version.json";
 
-	private final static String clientJarPath = clientFolder + "\\ValrodClient.jar";
-	private final static String clientJSONpath = clientFolder + "\\ValrodClient.json";
+	private final static String clientJarPath = clientFolder + "\\CustomVersion.jar";
+	private final static String clientJSONpath = clientFolder + "\\CustomVersion.json";
 
 	private final static int windowHeight = 160;
 	private final static int windowWidth = 270;
